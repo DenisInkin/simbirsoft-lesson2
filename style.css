@@ -1,0 +1,74 @@
+html {
+	height: 100%;
+}
+
+body {
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+	background-color: #F5DEB3;
+}
+
+.clear{
+    clear: both;
+}
+
+.header {
+    width: 125%;
+    height: 80px;
+    background-color: rgba(22,22,55,.5);
+}
+
+.header__content {
+    width: 1020px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header__pic {
+    width: 65px;
+    height: 65px;
+    padding-top: 6px;
+    float: left;
+}
+
+.header__logotext {
+    padding-top: 25px;
+    margin-left: 35px;
+    color: white;
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+}
+
+.middle {
+    width: 100%;
+}
+
+.middle__content {
+    width: 750px;
+
+    margin: 30px auto;
+}
+
+.middle__content__user {
+    color: black !important;
+    width: 40%;
+}
+
+.middle__content__msg {
+    color: black !important;
+}
+
+.middle__content__btn {
+    color: black !important;
+}
+
+.middle__content__chat {
+    color: black !important;
+    resize: none;
+    overflow-y: scroll;
+    margin-top: 40px;
+    height: 500px !important;
+}
